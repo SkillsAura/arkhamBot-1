@@ -9,6 +9,6 @@
   * First offence: 1 day ban
   * Second offence: Permanent ban
 * Common rules; inappropriate behaviour etc. will result in a mute.
-First offence: 15min mute
-Second offence: 35min mute
-Third offence: 45min mute
+  * First offence: 15min mute
+  * Second offence: 35min mute
+  * Third offence: 45min mute
