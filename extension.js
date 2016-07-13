@@ -72,7 +72,7 @@
             if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
             if (!bot.commands.executable(this.rank, chat)) return void (0);
             else {
-              API.sendChat("/me Tip: We only allow EDM (electronic dance music) here! Feel free to ask a staff if you are unsure whether your song is allowed.");
+              API.sendChat("/me Tip: We allow all kinds of music except Minecraft Parodies!");
             }
           }
         };
@@ -131,7 +131,7 @@
       usercommandsEnabled: true,
       skipPosition: 3,
       skipReasons: [
-      ["theme", "This song does not fit the room theme. "],
+      ["genre", "This song does not fit the room genre. "],
       ["op", "This song is on the OP list. "],
       ["history", "This song is in the history. "],
       ["mix", "You played a mix, which is against the rules. "],
@@ -156,7 +156,7 @@
       website: null,
       intervalMessages: ["Tip: Use !eta to check your waiting time.", "Tip: All Minecraft parody songs are blacklisted.", "Tip: Need help? You can alert the staff with @staff <message>.", "Tip: You will be skipped if you play any song that has recently been played."],
       messageInterval: 3,
-      songstats: false,
+      songstats: true,
       commandLiteral: "!",
       blacklists: {
         op: "https://rawgit.com/ArceusMaster0493/arkhamBot/master/blacklists/op.json",
