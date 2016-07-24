@@ -11,6 +11,5 @@ All songs listed below will be instantly skipped when played.
 * RemixGodSuede, EntreProducer - MY Ding-A-Ling REMIX FULL SONG [Reason: Troll song]
 * ? - Screaming Deer Remix Compilation [Reason: Compilation]
 * carfreak0801 - Its Peanut Butter Jelly Time [Reason: Troll song]
-* DJ Earworm Mashup - United State of Pop 2015 (50 Shades of Pop) [Reason: Overplayed until 30/July/16]
 
 In addition, all Minecraft parody songs are banned.
