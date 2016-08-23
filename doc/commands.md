@@ -10,39 +10,30 @@ Manager
 
 |Command | Arguments |  Description |
 |:------:|:---------:|:--------------------------------------:|
-|!afklimit | X | sets the maximum afk time |
+|!add | @user | add user to the waitlist |
+|!afkremoval | | toggles the afk check |
+|!autoskip | | skips songs automatically when they're done (use when the circles-bug happens) |
 |!botname | (botname) | change the default bot name |
 |!bouncer+ | | toggle bouncer+ |
 |!skippos | X | set the position to which skip and lockskip moves the dj |
 |!clearchat | |clears the chat |
 |!cycle | | toggle DJ cycle |
 |!cycletimer | X | set the maximum DJ cycle time for when cycleguard is enabled |
-|!language | (language) | specify the language you would like the bot to use |
-|!locktimer | X | set the maximum time the waitlist can be locked if lockguard is enabled |
-|!maxlength | X | specify the maximum length a song can be when timeguard is enabled |
-|!logout | | logs out account bot is hosted on |
-|!refresh | | refreshes the browser of whoever runs the bot |
-|!usercmdcd | X | set the cooldown on commands by grey users |
-|!usercommands | | toggle user commands |
-|!voteskip | (X) | when no argument is specified, returns the current voteskip limit, when X is specified, voteskip limit is updated to the new specified limit. |
-
-Bouncer+
---------
-
-|Command | Arguments |  Description |
-|:------:|:---------:|:--------------------------------------:|
-|!add | @user | add user to the waitlist |
-|!afkremoval | | toggles the afk check |
-|!autoskip | | skips songs automatically when they're done (use when the circles-bug happens) |
 |!deletechat | @user | delete all the chats by a certain user |
+|!language | (language) | specify the language you would like the bot to use |
 |!lock | | lock the waitlist |
 |!lockdown | | lock down the room: only staff can chat |
+|!locktimer | X | set the maximum time the waitlist can be locked if lockguard is enabled |
 |!move | @user (X) | moves user to position X on the waitlist, default is position 1 |
+|!logout | | logs out account bot is hosted on |
+|!refresh | | refreshes the browser of whoever runs the bot |
 |!remove | @user | remove user from the waitlist |
 |!roulette | | start a roulette |
 |!songstats | | toggle song statistics |
 |!unlock | | unlock the waitlist |
-|!welcome | | toggle the welcome message on user join |
+|!usercmdcd | X | set the cooldown on commands by grey users |
+|!usercommands | | toggle user commands |
+|!voteskip | (X) | when no argument is specified, returns the current voteskip limit, when X is specified, voteskip limit is updated to the new specified limit. |
 
 Bouncer
 -------
@@ -65,12 +56,12 @@ Bouncer
 |!forceskip | | forceskips the current song |
 |!historyskip | | toggles the history skip |
 |!jointime | @user | shows how long the user has been in the room |
-|!kick | (X) | kicks user for X minutes, default is 0.25 minutes (15 seconds) |
+|!kick | @user (X) | kicks user for X minutes, default is 0.25 minutes (15 seconds) |
 |!kill | | shut down the bot |
 |!lockguard | | toggle the lockguard |
 |!lockskip | (reason) | skips, locks and moves the dj back up (the position can be set with !skippos) |
 |!motd | (X)/(message) | when no argument is specified, returns the Message of the Day, when X is specified, the MotD is given every X songs, when "message" is given, it sets the MotD to message |
-|!mute | @user/(X) | mute user, for X minutes if X is specified, otherwise for an undefined period |
+|!mute | @user (X) | mute user, for X minutes if X is specified, otherwise for an undefined period |
 |!reload | | reload the bot |
 |!restricteta | | toggles the restriction on eta: grey users can use it once an hour |
 |!sessionstats | | display stats for the current session |
