@@ -29,9 +29,9 @@ The following is a list of reasons a song will get skipped:
 * The song is longer than 6 minutes.
 * The song is racist or overly offensive.
 * The song has been played recently (in the last 25 songs) or is overplayed.
-* The song is a troll song, a parody song, minecraft-related, ear rape, or not a song at all.
+* The song is a troll song, a parody song, Minecraft-related, ear rape, or not a song at all.
 * The song is a random songs compilation.
-* The song is not in not in English.
+* The song is not in English.
 * The song had 40% of the active users in the last 15 minutes ‘meh’ it, it will be skipped.
 
 Please not that if a user breaks any of these rules multiple times they will be removed from the waitlist.
