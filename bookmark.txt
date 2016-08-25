@@ -1,0 +1,1 @@
+javascript:(function(){$.getScript('https://rawgit.com/ArceusMaster0493/arkhamBot/master/extension.js');})();
