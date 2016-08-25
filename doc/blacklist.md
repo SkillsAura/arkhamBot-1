@@ -12,4 +12,4 @@ All songs listed below will be instantly skipped when played.
 * ? - Screaming Deer Remix Compilation [Reason: Compilation]
 * carfreak0801 - Its Peanut Butter Jelly Time [Reason: Troll song]
 
-In addition, all Minecraft parody songs are banned.
+In addition, all parody songs are banned.
