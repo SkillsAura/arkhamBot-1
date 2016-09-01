@@ -145,7 +145,7 @@
     "deletechat": "\/me @%%NAME%% >> Cleared the chat of %%USERNAME%%.",
     "commandslink": "\/me %%BOTNAME%% commands: %%LINK%%",
     "eatcookie": "\/me Eats a cookie.",
-    "nousercookie": "\/me @%%NAME%% >> You can't see %%NAME%% in room and eats a cookie yourself.",
+    "nousercookie": "\/em I don't see %%NAME%% in room. I'll just eat that cookie.",
     "selfcookie": "\/me @%%NAME%% >> You're a bit greedy, aren't you? Giving cookies to yourself, bah. Share some with other people!",
     "cookie": "\/me @%%NAMETO%%, %%NAMEFROM%% %%COOKIE%%",
     "cycleguardtime": "\/me @%%NAME%% >> The cycleguard is set to %%TIME%% minute(s).",
