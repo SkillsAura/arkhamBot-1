@@ -153,7 +153,7 @@
       fbLink: null,
       youtubeLink: null,
       website: null,
-      intervalMessages: ["Tip: Use !eta to check your waiting time.", "Tip: All parody songs are blacklisted.", "Tip: Need help? You can alert the staff with @staff <message>.", "Tip: You will be skipped if you play any song that has recently been played."],
+      intervalMessages: ["Tip: Use !eta to check your waiting time.", "Tip: All parody songs are blacklisted.", "Tip: Need help? You can alert the staff with @staff <message>.", "Tip: You will be skipped if you play any song that has recently been played.", "Be sure to join our Spooky Plug.DJ Event! Info at: www.arkham.click/plugdj"],
       messageInterval: 3,
       songstats: true,
       commandLiteral: "!",
