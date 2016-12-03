@@ -2274,8 +2274,8 @@
                 }
             },
 
-            /*gifCommand: {
-                command: ['gif', 'giphy'],
+            gifCommand: {
+                command: ['dontusethisgoddamncommandyougaylookingdipshitfucktard'],
                 rank: 'user',
                 type: 'startsWith',
                 functionality: function (chat, cmd) {
@@ -2341,7 +2341,7 @@
                         }
                     }
                 }
-            },*/
+            },
 
             helpCommand: {
                 command: 'help',
