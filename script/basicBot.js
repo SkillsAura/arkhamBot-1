@@ -2274,7 +2274,7 @@
                 }
             },
 
-            gifCommand: {
+            /*gifCommand: {
                 command: ['gif', 'giphy'],
                 rank: 'user',
                 type: 'startsWith',
@@ -2341,7 +2341,7 @@
                         }
                     }
                 }
-            },
+            },*/
 
             helpCommand: {
                 command: 'help',
