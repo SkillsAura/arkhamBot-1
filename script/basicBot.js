@@ -1421,17 +1421,17 @@
             }, 60 * 60 * 1000);
             basicBot.loggedInID = API.getUser().id;
             basicBot.status = true;
-            API.sendChat('/cap ' + basicBot.settings.startupCap);
-            API.setVolume(basicBot.settings.startupVolume);
+/*            API.sendChat('/cap ' + basicBot.settings.startupCap); */
+/*            API.setVolume(basicBot.settings.startupVolume); */
             if (basicBot.settings.autowoot) {
                 $("#woot").click();
             }
-            if (basicBot.settings.startupEmoji) {
+/*            if (basicBot.settings.startupEmoji) {
                 var emojibuttonoff = $(".icon-emoji-off");
                 if (emojibuttonoff.length > 0) {
                     emojibuttonoff[0].click();
                 }
-                API.chatLog(':smile: Emojis enabled.');
+                API.chatLog('Emojis enabled.');
             }
             else {
                 var emojibuttonon = $(".icon-emoji-on");
@@ -1439,9 +1439,9 @@
                     emojibuttonon[0].click();
                 }
                 API.chatLog('Emojis disabled.');
-            }
-            API.chatLog('Avatars capped at ' + basicBot.settings.startupCap);
-            API.chatLog('Volume set to ' + basicBot.settings.startupVolume);
+            } */
+/*            API.chatLog('Avatars capped at ' + basicBot.settings.startupCap); */
+/*            API.chatLog('Volume set to ' + basicBot.settings.startupVolume); */
             //socket();
             loadChat(API.sendChat(subChat(basicBot.chat.online, {botname: basicBot.settings.botName, version: basicBot.version})));
         },
@@ -1484,7 +1484,7 @@
                         minPerm = 0;
                         break;
                     default:
-                        API.chatLog('error assigning minimum permission');
+                        API.chatLog('[Error] Error assigning minimum permission');
                 }
                 return perm >= minPerm;
 
