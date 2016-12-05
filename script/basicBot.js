@@ -1440,8 +1440,9 @@
                 }
                 API.chatLog('Emojis disabled.');
             } */
-/*            API.chatLog('Avatars capped at ' + basicBot.settings.startupCap); */
-/*            API.chatLog('Volume set to ' + basicBot.settings.startupVolume); */
+            API.chatLog('Avatars capping disabled. Preceeding settings loaded.'); 
+            API.chatLog('Volume setting disabled. Preceeding settings loaded.'); 
+            API.chatLog('Emoji toggling disabled. Preceeding settings loaded.');
             //socket();
             loadChat(API.sendChat(subChat(basicBot.chat.online, {botname: basicBot.settings.botName, version: basicBot.version})));
         },
